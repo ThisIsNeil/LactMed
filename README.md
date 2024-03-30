@@ -5,8 +5,8 @@
 
   <a href="http://wikimedicine.ir/">![Static Badge](https://img.shields.io/badge/Under-Wikimedicine-green?color=%23008000)</a>
   <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg)</a>  </br>
-  <a href="">![Github Created At](https://img.shields.io/github/created-at/ThisIsNeil/lactmed?style=plastic)</a>
-  <a href="">![GitHub last commit](https://img.shields.io/github/last-commit/ThisIsNeil/lactmed?style=plastic&color=blue)</a>
+  <a href="">![Github Created At](https://img.shields.io/github/created-at/ThisIsNeil/LactMed?style=plastic)</a>
+  <a href="">![GitHub last commit](https://img.shields.io/github/last-commit/ThisIsNeil/LactMed?style=plastic&color=blue)</a>
 
 </div>
 
