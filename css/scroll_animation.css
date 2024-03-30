@@ -29,7 +29,7 @@ body {
 }
 
 #flip div:first-child {
-  animation: show 5s linear infinite;
+  animation: show 10s linear infinite;
 }
 
 #flip div div {
