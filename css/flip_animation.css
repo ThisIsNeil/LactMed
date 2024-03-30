@@ -1,9 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:700');
-
-
-
-
-
 #flip {
   height:50px;
   overflow:hidden;
@@ -40,13 +35,4 @@
   71% {margin-top:0px;}
   99.99% {margin-top:0px;}
   100% {margin-top:-270px;}
-}
-
-p {
-  position:fixed;
-  width:100%;
-  bottom:30px;
-  font-size:12px;
-  color:#999;
-  margin-top:200px;
 }
