@@ -1,29 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<!--style tag below is for loader-->
-<style>
-      #loader {
-      height: 100vh;
-      width: 100%;
-      background-color: black;
-      position: fixed;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      z-index: 999;
-    }
 
-    #loader img {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      width: 30%;
-    }
-</style>
-
-	
 <!--style tag below to placate IE is for fixed table header-->
 <style>
 
@@ -51,25 +29,17 @@ th {
 </head>
 <body>	
 <!--Loading Screen Animation-->
-	<div class="loader">
+<section>
+<div id="loader">
   <div class="dot"></div>
   <div class="dot"></div>
   <div class="dot"></div>
   <div class="dot"></div>
   <div class="dot"></div>
-	</div>
-    <!-- Div for loader placement -->
-    <div id="loader">
-      <img src="loader.gif" />
-    </div>
-
-      <div>
-        <span>We'll answer you soon!</span>
-      </div>
-    </section>
+</div>
+</section>
 
 <script>
-
   //hide the loader after page is loaded fully
   var loader = document.getElementById("loader");
   window.addEventListener("load", function () {
@@ -79,7 +49,6 @@ th {
     loader.style.borderRadius = "50%";
     loader.style.visibility = "hidden";
   });
-
 </script>
 
 
