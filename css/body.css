@@ -34,9 +34,8 @@ body,#artInput{text-align: center;}
   border-bottom: 1px solid #ddd;
 
 }
-#artTable tr.header {
-  background-color: #ffedf3;
-
+table  th{
+background: #70db70;
 }
 #artTable tr.header, #artTable tr:hover {
   background-color: #f1f1f1;
