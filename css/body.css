@@ -3,7 +3,7 @@
 }
 body,#artInput{text-align: center;}
 #artInput {
-  background-image: url('./res/search_icon.png');
+  background-image: url('../res/search_icon.png');
   background-position: 10px 10px;;
   background-repeat: no-repeat;
   background-size: 25px;
