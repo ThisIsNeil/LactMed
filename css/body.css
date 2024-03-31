@@ -45,7 +45,7 @@ a {
   color: #f56642;
 }
 
-h2, h1, p {
+h4, h4, h2, h1, p {
   font-family: 'Nunito Sans', sans-serif;
 }
 h1:hover {
