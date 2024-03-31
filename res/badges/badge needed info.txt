@@ -13,19 +13,19 @@ FDA:
 codes:
 fda badges:
 A:
-<h4>pregnancy Category :&nbsp;<img style="vertical-align:middle" alt="FDA Group A" src="res/fda_category/fda_a.svg"></h4>
+<h4>pregnancy Category :&nbsp;<img style="vertical-align:middle" alt="FDA Group A" src="/res/fda_category/fda_a.svg"></h4>
 
 B:
-<h4>pregnancy Category :&nbsp;<img alt="FDA Group B" src="res/fda_category/fda_b.svg"></h4>
+<h4>pregnancy Category :&nbsp;<img alt="FDA Group B" src="/res/fda_category/fda_b.svg"></h4>
 
 C:
-<h4>pregnancy Category :&nbsp;<img alt="FDA Group C" src="res/fda_category/fda_c.svg"></h4>
+<h4>pregnancy Category :&nbsp;<img alt="FDA Group C" src="/res/fda_category/fda_c.svg"></h4>
 
 D:
-<h4>pregnancy Category :&nbsp;<img alt="FDA Group D" src="res/fda_category/fda_d.svg"></h4>
+<h4>pregnancy Category :&nbsp;<img alt="FDA Group D" src="/res/fda_category/fda_d.svg"></h4>
 
 X:
-<h4>pregnancy Category :&nbsp;<img alt="FDA Group X" src="res/fda_category/fda_x.svg"></h4>
+<h4>pregnancy Category :&nbsp;<img alt="FDA Group X" src="/res/fda_category/fda_x.svg"></h4>
 
 
 for alignment to center the txt automatically you can use both {style="vertical-align:middle"} in the img tag, or use css to append it to h4 completely. since i wanted to make it as light as possible i went the css route.
