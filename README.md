@@ -3,6 +3,7 @@
 
 <div align="center">
 
+
   <a href="http://wikimedicine.ir/">![Static Badge](https://img.shields.io/badge/Under-Wikimedicine-green?color=%23008000)</a>
   <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg)</a>  </br>
   <a href="">![Github Created At](https://img.shields.io/github/created-at/ThisIsNeil/LactMed?style=plastic)</a>
@@ -11,6 +12,7 @@
 </div>
 
 Searchable index of drug safety during pregnancy and lactation.
+
 ## Tooltips
 
 There are two different ways tooltips were used in this work:
@@ -48,31 +50,38 @@ Name of drug
 ```
 
 **<!img> codes for badges:**
-> |Badge                                | (Delete the "!" before the <!img>                          |
-> | ----------------------------------- | ---------------------------------------------------------- |
-> | ![FDA A](/res/badges/fda/fda_a.svg) | <!img alt="FDA Group A" src="/res/badges/fda/fda_a.svg"> |
-> | ![FDA B](/res/badges/fda/fda_b.svg) | <!img alt="FDA Group B" src="/res/badges/fda/fda_b.svg"> |
-> | ![FDA C](/res/badges/fda/fda_c.svg) | <!img alt="FDA Group C" src="/res/badges/fda/fda_c.svg"> |
-> | ![FDA D](/res/badges/fda/fda_d.svg) | <!img alt="FDA Group D" src="/res/badges/fda/fda_d.svg"> |
-> | ![FDA X](/res/badges/fda/fda_x.svg) | <!img alt="FDA Group X" src="/res/badges/fda/fda_x.svg"> |
-> |                                     |                                                           |
-> |                                     |                                                           |
-> |                                     |                                                           |
-> |                                     |                                                           |
-> |                                     |                                                           |
->
-> 
+
+> |                            Badge                             |              (Delete the "!" before the <!img>               |
+> | :----------------------------------------------------------: | :----------------------------------------------------------: |
+> |             ![FDA A](/res/badges/fda/fda_a.svg)              |   <!img alt="FDA Group A" src="/res/badges/fda/fda_a.svg">   |
+> |             ![FDA B](/res/badges/fda/fda_b.svg)              |   <!img alt="FDA Group B" src="/res/badges/fda/fda_b.svg">   |
+> |             ![FDA C](/res/badges/fda/fda_c.svg)              |   <!img alt="FDA Group C" src="/res/badges/fda/fda_c.svg">   |
+> |             ![FDA D](/res/badges/fda/fda_d.svg)              |   <!img alt="FDA Group D" src="/res/badges/fda/fda_d.svg">   |
+> |             ![FDA X](/res/badges/fda/fda_x.svg)              |   <!img alt="FDA Group X" src="/res/badges/fda/fda_x.svg">   |
+> |             ![TGA A](/res/badges/tga/tga_a.svg)              |   <!img alt="TGA Group A" src="/res/badges/tga/tga_a.svg">   |
+> |            ![TGA B1](/res/badges/tga/tga_b1.svg)             |  <!img alt="TGA Group A" src="/res/badges/tga/tga_b1.svg">   |
+> |            ![TGA B2](/res/badges/tga/tga_b2.svg)             |  <!img alt="TGA Group A" src="/res/badges/tga/tga_b2.svg">   |
+> |            ![TGA B3](/res/badges/tga/tga_b3.svg)             |  <!img alt="TGA Group A" src="/res/badges/tga/tga_b3.svg">   |
+> |             ![TGA C](/res/badges/tga/tga_c.svg)              |   <!img alt="TGA Group A" src="/res/badges/tga/tga_c.svg">   |
+> |             ![TGA D](/res/badges/tga/tga_d.svg)              |   <!img alt="TGA Group A" src="/res/badges/tga/tga_d.svg">   |
+> |             ![TGA X](/res/badges/tga/tga_x.svg)              |   <!img alt="TGA Group A" src="/res/badges/tga/tga_x.svg">   |
+> | ![Breastfeeding not recommended](/res/badges/Breastfeeding_not_recommended.svg) | <!img alt="Breastfeeding not recommended" src="/res/badges/Breastfeeding_not_recommended.svg"> |
+> |                                                              |                                                              |
+> |                                                              |                                                              |
+> |                                                              |                                                              |
+> |                                                              |                                                              |
+> |                                                              |                                                              |
 >
 > 
 
 **Badge color scheme:**
 
 - FDA:
-  - ​	A:#51d91e
-  - ​	B:#f4ff00
-  - ​	C:#FFC300 
-  - ​	D:#ff6100
-  - ​	X:#ff0000
+  - 	A:#51d91e
+  - 	B:#f4ff00
+  - 	C:#FFC300 
+  - 	D:#ff6100
+  - 	X:#ff0000
 
 -----------
 
@@ -100,6 +109,7 @@ the website I used for implementing docile tooltip can be found at https://freef
 
 
 -------------
+
 ## Fun stuff
 
 Easter Egg: putting this code inside the css of the tooltip causes it to show at an angle:
@@ -109,6 +119,8 @@ Easter Egg: putting this code inside the css of the tooltip causes it to show at
     background-color:#EEEEEE;
     box-shadow:0 1px 8px rgba(0,0,0,0.5);
 ```
+
 -----------
+
 <a href="https://github.com/micahlt/renart">![Static Badge](https://img.shields.io/badge/Based_on-micahlt/renart-green?color=%236495ED)</a> </br>
 License: This work is licensed under Attribution-NonCommercial-ShareAlike 4.0 International. To view a copy of this license, visit <a href = "http://creativecommons.org/licenses/by-nc-sa/4.0/">http://creativecommons.org/licenses/by-nc-sa/4.0/</a>
