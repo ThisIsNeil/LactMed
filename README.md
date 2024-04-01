@@ -82,7 +82,7 @@ Name of drug
 - 	X:#ff0000
 - 	Breastfeeding not recommended:#FF3131
 
------------
+
 
 ### Docile tooltip:
 
