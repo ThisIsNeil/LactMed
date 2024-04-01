@@ -75,13 +75,12 @@ Name of drug
 > 
 
 **Badge color scheme:**
-
-- FDA:
-  - 	A:#51d91e
-  - 	B:#f4ff00
-  - 	C:#FFC300 
-  - 	D:#ff6100
-  - 	X:#ff0000
+- 	A:#51d91e
+- 	B:#f4ff00
+- 	C:#FFC300 
+- 	D:#ff6100
+- 	X:#ff0000
+- 	Breastfeeding not recommended:#FF3131
 
 -----------
 
