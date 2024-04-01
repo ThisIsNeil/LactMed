@@ -49,11 +49,11 @@ Name of drug
 **<!img> codes for badges:**
 > |Badge                                | (Delete the "!" before the <!img>                          |
 > | ----------------------------------- | ---------------------------------------------------------- |
-> | ![FDA A](/res/badges/fda/fda_a.svg) | <!img alt="FDA Group A" src="/res/fda_category/fda_a.svg"> |
-> | ![FDA B](/res/badges/fda/fda_b.svg) | <!img alt="FDA Group B" src="/res/fda_category/fda_b.svg"> |
-> | ![FDA C](/res/badges/fda/fda_c.svg) | <!img alt="FDA Group C" src="/res/fda_category/fda_c.svg"> |
-> | ![FDA D](/res/badges/fda/fda_d.svg) | <!img alt="FDA Group D" src="/res/fda_category/fda_d.svg"> |
-> | ![FDA X](/res/badges/fda/fda_x.svg) | <!img alt="FDA Group X" src="/res/fda_category/fda_x.svg"> |
+> | ![FDA A](/res/badges/fda/fda_a.svg) | <!img alt="FDA Group A" src="/res/badges/fda/fda_a.svg"> |
+> | ![FDA B](/res/badges/fda/fda_b.svg) | <!img alt="FDA Group B" src="/res/badges/fda/fda_b.svg"> |
+> | ![FDA C](/res/badges/fda/fda_c.svg) | <!img alt="FDA Group C" src="/res/badges/fda/fda_c.svg"> |
+> | ![FDA D](/res/badges/fda/fda_d.svg) | <!img alt="FDA Group D" src="/res/badges/fda/fda_d.svg"> |
+> | ![FDA X](/res/badges/fda/fda_x.svg) | <!img alt="FDA Group X" src="/res/badges/fda/fda_x.svg"> |
 > |                                     |                                                           |
 > |                                     |                                                           |
 > |                                     |                                                           |
