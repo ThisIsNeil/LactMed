@@ -34,7 +34,7 @@ since there's no consistency between each drug's recommendation,I've chosen to w
 
 the badge.css file is located at /css
 
-badges are accessible from /res/badges
+badge icons were created using http://shields.io/ and are accessible from /res/badges
 
 and the example code which should replace <td></td> tags is as follow:
 
