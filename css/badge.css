@@ -1,0 +1,42 @@
+
+.CellWithComment{
+  position:relative;
+
+}
+.CellWithComment:hover span.CellComment{
+  display:block;
+}
+.CellComment{
+    min-width:300px; 
+    top:50%;
+    left:100%;
+    margin-left:20px;
+    transform:translate(0, -50%);
+    padding:10px 20px;
+    color:#444444;
+    background-color:#EEEEEE;
+    font-weight:normal;
+    font-size:13px;
+    border-radius:8px;
+    position:absolute;
+    z-index:99999999;
+    box-sizing:border-box;
+    box-shadow:0 1px 8px rgba(0,0,0,0.5);
+    display:none;
+
+
+
+}
+
+.badgeheaderdrugs{
+  font-size:1.2em;
+  font-family: Cursive, serif;
+}
+.badgeheaderrest{
+  font-size:1.2em;
+  font-family: serif;
+}
+.badgecontent{
+  font-size:1.1em;
+  font-family: serif;
+}
