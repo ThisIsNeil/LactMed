@@ -38,7 +38,7 @@
     rgba(60, 82, 88, 0.44));
   box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.2);
   color: #fff;
-  text-align: center;
+  text-align: left;
   white-space: pre-wrap;
   transform: translate(-50%,  calc(0px - var(--arrow-size))) scale(0.5);
 }
