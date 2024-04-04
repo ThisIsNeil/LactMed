@@ -7,6 +7,15 @@
 <title>References</title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
 <style>
+  /* Use -webkit- only if supporting: Chrome < 54, iOS < 9.3, Android < 4.4.4 */
+/**! for shadow under the logo**/
+.shadow {
+  -webkit-filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+  filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+  /* Similar syntax to box-shadow */
+}
+
+  
 * {
   box-sizing: border-box;
 }
@@ -34,7 +43,8 @@ p {
 </style>
 </head>
 <body>
-<img src = "logo.svg" align = "center" style="width: 150%;" class = "center">
+  <br><br>
+<img src = "logo.svg" class="shadow" align = "center" style="width: 9%;" class = "center">
 <h1><a href = ""><b>Reference list and Additional information</b></a></h1>
 <p>
 
