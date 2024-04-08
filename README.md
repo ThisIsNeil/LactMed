@@ -86,7 +86,7 @@ Name of drug
 
 ### Docile tooltip:
 
-while creating badges I undrestood I couldn't use <div> inside <td></td> which killed the whole badge section at first and I kept making different adjustments and experiment with what could be done and created the "docile tooltip". 
+while creating badges I undrestood I couldn't use ``` <div> ``` inside ```<td></td>``` which killed the whole badge section at first and I kept making different adjustments and experiment with what could be done and created the "docile tooltip". 
 
 docile tooltip has a different style to it and was kept since it could prove useful one day.as of now there's no implementation of docile tooltip inside the index file but the css which is located at /css/docile_tooltip.css is loaded automatically.
 
@@ -98,7 +98,7 @@ the website I used for implementing docile tooltip can be found at https://freef
 </div>
 ```
 
-- this code can be used be between the <td> </td> tags which I never understood why this works and my initial badges didn't.
+- this code can be used be between the ```<td> </td>``` tags which I never understood why this works and my initial badges didn't.
 
 - it is only capable of showing text and no images.
 
