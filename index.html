@@ -1,1582 +1,1582 @@
 <!DOCTYPE html>
 <html>
-<head>
-<!--style tag below to placate IE is for fixed table header-->
-<style>
-
-table {
-  text-align: left;
-  position: relative;
-}
-
-th {
-  background: white;
-  position: sticky;
-  top: 0;
-}
-</style>
-<!--meta below is for phone screen being the same as desktop-->
-<meta name="viewport" content="width=device-width, initial-scale=0.1">
-<link rel="stylesheet" href="/css/lactmed_logo_animation.css">
-<link rel="stylesheet" href="/css/badge.css">
-<link rel="stylesheet" href="/css/docile_tooltip.css">
-<link rel="stylesheet" href="/css/reference_scroll_animation.css">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link href = "https://fonts.googleapis.com/css?family=Nunito+Sans:400,900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/css/body.css">
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
-<title>LactMed.ir</title>
-
-</head>
-<body>	
-<!--Lactmed.ir animated logo-->
-<div class="wrapper">
-	<svg>
-		<a href="http://lactmed.ir/"><text x="50%" y="50%" dy=".35em" text-anchor="middle">
-			LactMed.Ir
-		</text></a>
-	</svg>
-</div>
-
-<h2>Database of drug safety during pregnancy and lactation</h2>
-
-<!--reference scroll text-->
-<div id=container>
-  <div id=flip>
-    <div><div>Briggs Drugs in Pregnancy and Lactation, 12th ed.</div></div>
-    <div><div>Drugs and Lactation Database (LactMed®)</div></div>
-    <div><div>www.drugs.com</div></div>
-  </div>
-</div>
-
-
-<!--search box-->
-<div class="centerenter">
-<input type="text" id="artInput" onkeyup="artFunction()" placeholder="name of drug or class" title="Work search">
-</div>
-<div class="tablesearch">
-<table id="artTable" align="center">
-<thead>
-<tr class="header">
-<th style="width:10%">Name</th>
-<th style="width:10%">class</th>
-<th style="width:30%">Safety during pregnancy</th>
-<th style="width:30%">Safety during lactation</th>
-<th style="width:20%">More info</th>
-</tr>
-</thead>
-
-<tr>
-<td class="CellWithComment">
-Abacavir
-<span style="text-align: start" class="CellComment">
-	<a class="badgeheaderdrugs">Drugs.com</a><a class="badgeheaderrest"> recommendation:<br style="line-height: 30px"></a>
-	<a class="badgecontent">Pregnancy Category:&ensp; &ensp;<img style="vertical-align:middle" alt="FDA Group A" src="/res/badges/fda/fda_a.svg"> <img style="vertical-align:middle" alt="FDA Group A" src="/res/badges/fda/fda_a.svg"><br style="line-height: 40px">Breastfeeding Category:<img style="vertical-align:middle" alt="FDA Group A" src="/res/badges/fda/fda_a.svg"> <img style="vertical-align:middle" alt="FDA Group A" src="/res/badges/fda/fda_a.svg"></a>
-<i></i>
-</i></span>
-</td>
-<td>Antiviral</td>
-	<td>Compatible<br>Maternal Benefit >> Embryo–Fetal Risk</td>
-<td>Contraindicated</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501547/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Abatacept</td>
-<td>Immunologic (Immunomodulator)/Antirheumatic</td>
-<td>Limited Human Data<br>Animal Data Suggest Low Risk</td>
-<td>No Human Data<br>Potential Toxicity</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501804/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Abciximab</td>
-<td>Hematologic (Antiplatelet)</td>
-<td>Compatible<br>Maternal Benefit >> Embryo–Fetal Risk</td>
-<td>Compatible</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK500585/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Abiraterone Acetate</td>
-<td>Antineoplastic</td>
-<td>Contraindicated</td>
-<td>Contraindicated</td>
-<td><a>No outside link yet</a></td>
-</tr>
-
-<tr>
-<td>Acamprosate</td>
-<td>Antialcoholic</td>
-<td>Limited Human Data<br>Animal Data Suggest High Risk</td>
-<td>No Human Data<br>Probably Compatible</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK584452/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Acarbose</td>
-<td>Endocrine/Metabolic (Antidiabetic)</td>
-<td>Limited Human Data<br>Animal Data Suggest Low Risk</td>
-<td>No Human Data<br>Probably Compatible</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK500559/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Acebutolol</td>
-<td>Sympatholytic (Antihypertensive)</td>
-<td>Limited Human Data<br>Animal Data Suggest Low Risk</td>
-<td>Limited Human Data<br>Potential Toxicity</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501141/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Acetaminophen</td>
-<td>Analgesic/Antipyretic</td>
-<td>Short-Term Use Suggests Low Risk<br>Long-Term Use Suggests Risk</td>
-<td>Compatible</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501194/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Acetazolamide</td>
-<td>Carbonic Anhydrase Inhibitor/Diuretic</td>
-<td>Compatible</td>
-<td>Compatible</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501365/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Acetylcysteine</td>
-<td>Respiratory (Mucolytic)/Antidote</td>
-<td>Compatible<br>Maternal Benefits >> Embryo–Fetal Risk</td>
-<td>No Human Data<br>Probably Compatible</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Acitretin</td>
-<td>Dermatologic (Vitamin)</td>
-<td>Contraindicated</td>
-<td>Compatible</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/n/lactmed/LM490/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Aclidinium Bromide</td>
-<td>Respiratory (Bronchodilator)</td>
-<td>No Human Data<br>Probably Compatible</td>
-<td>No Human Data<br>Probably Compatible</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK500571/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Aciclovir<br>(Acyclovir)</td>
-<td>Antiviral</td>
-<td>Compatible</td>
-<td>Compatible</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/n/lactmed/LM331/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Adalimumab</td>
-<td>Immunologic (Immunomodulator)</td>
-<td>Compatible</td>
-<td>Limited Human Data<br>Probably Compatible</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/n/lactmed/LM513/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Adapalene</td>
-<td>Dermatologic</td>
-<td>Limited Human Data<br>Animal Data Suggest Low Risk</td>
-<td>No Human Data<br>Probably Compatible</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501423/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Adefovir</td>
-<td>Antiviral</td>
-<td>Compatible<br>Maternal Benefit >> Embryo–Fetal Risk</td>
-<td>No Human Data<br>Potential Toxicity (Hepatitis B)<br>Contraindicated (HIV)</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501743/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Adenosine</td>
-<td>Antiarrhythmic</td>
-<td>Compatible<br>Maternal Benefit >> Embryo–Fetal Risk</td>
-<td>No Human Data<br>Probably Compatible</td>
-<td><a>No outside link yet</a></td>
-</tr>
-
-<tr>
-<td>Ado-Trastuzumab</td>
-<td>Antineoplastic (Monoclonal Antibody)</td>
-<td>No Human Data<br>Animal Data Suggest Moderate Risk</td>
-<td>No Human Data<br>Potential Toxicity</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK500827/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Afamelanotide</td>
-<td>Dermatologic</td>
-<td>No Human Data<br>Animal Data Suggest Low Risk</td>
-<td>No Human Data<br>Probably Compatible</td>
-<td><a>No outside link yet</a></td>
-</tr>
-
-<tr>
-<td>Afatinib</td>
-<td>Antineoplastic (Tyrosine Kinase Inhibitor)</td>
-<td>No Human Data<br>Animal Data Suggest Risk</td>
-<td>No Human Data<br>Potential Toxicity</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK500846/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Aflibercept (Ophthalmic)</td>
-<td>Vascular Endothelial Growth Factor Antagonist</td>
-<td>No Human Data<br>Animal Data Suggest Low Risk</td>
-<td>No Human Data<br>Probably Compatible</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/n/lactmed/LM1246/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Agalsidase Alfa</td>
-<td>Endocrine/Metabolic Agent (Enzyme)</td>
-<td>Compatible<br>Maternal Benefit >> Embryo–Fetal Risk</td>
-<td>No Human Data<br>Probably Compatible</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK535604/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Agalsidase Beta</td>
-<td>Endocrine/Metabolic (Enzyme)</td>
-<td>Compatible<br>Maternal Benefit >> Embryo–Fetal Risk</td>
-<td>No Human Data<br>Probably Compatible</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK500601/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Albendazole</td>
-<td>Anthelmintic</td>
-<td>Compatible</td>
-<td>Limited Human Data<br>Probably Compatible</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/n/lactmed/LM491/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Albiglutide</td>
-<td>Endocrine/Metabolic (Antidiabetic)</td>
-<td>No Human Data<br>Animal Data Suggest Low Risk</td>
-<td>No Human Data<br>Probably Compatible</td>
-<td><a>No outside link yet</a></td>
-</tr>
-
-<tr>
-<td>Albuterol</td>
-<td>Sympathomimetic/Bronchodilator</td>
-<td>Compatible</td>
-<td>No Human Data<br>Probably Compatible</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501486/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Alcaftadine (Ophthalmic)</td>
-<td>Antihistamine</td>
-<td>No Human Data<br>Probably Compatible</td>
-<td>No Human Data<br>Probably Compatible</td>
-<td><a>No outside link yet</a></td>
-</tr>
-
-<tr>
-<td>Aldesleukin</td>
-<td>Antineoplastic</td>
-<td>No Human Data<br>Animal Data Suggest Low Risk</td>
-<td>Hold Breastfeeding at Least 4 Hours</td>
-<td><a>No outside link yet</a></td>
-</tr>
-
-<tr>
-<td>Alectinib</td>
-<td>Antineoplastic</td>
-<td>Contraindicated</td>
-<td>Contraindicated</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/n/lactmed/LM1263/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Alemtuzumab</td>
-<td>Antineoplastic</td>
-<td>Limited Human Data<br>No Relevant Animal Data</td>
-<td>No Human Data<br>Potential Toxicity</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501803/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Alendronate</td>
-<td>Bisphosphonate</td>
-<td>Limited Human Data<br>Animal Data Suggest Risk</td>
-<td>No Human Data<br>Probably Compatible</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/n/lactmed/LM723/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Alfentanil</td>
-<td>Narcotic Agonist Analgesic</td>
-<td>Human Data Suggest Risk in 3rd Trimester</td>
-<td>Limited Human Data<br>Probably Compatible</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501197/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Alglucosidase Alfa</td>
-<td>Endocrine/Metabolic (Enzyme)</td>
-<td>Compatible<br>Maternal Benefit >> Embryo–Fetal Risk</td>
-<td>Limited Human Data<br>Probably Compatible</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/n/lactmed/LM907/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Alirocumab</td>
-<td>Antilipemic</td>
-<td>No Human Data<br>Animal Data Suggest Low Risk</td>
-<td>No Human Data<br>Probably Compatible</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/n/lactmed/LM1178/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Aliskiren</td>
-<td>Antihypertensive</td>
-<td>Human Data Suggest Risk in 2nd and 3rd Trimesters</td>
-<td>No Human Data<br>Probably Compatible</td>
-<td><a>No outside link yet</a></td>
-</tr>
-
-<tr>
-<td>Allopurinol</td>
-<td>Antineoplastic/Antigout</td>
-<td>Limited Human Data<br>No Relevant Animal Data</td>
-<td>Limited Human Data<br>Potential Toxicity</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501198/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Almotriptan</td>
-<td>Antimigraine</td>
-<td>No Human Data<br>Animal Data Suggest Low Risk</td>
-<td>No Human Data<br>Probably Compatible</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501459/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Alogliptin</td>
-<td>Endocrine/Metabolic (Antidiabetic)</td>
-<td>No Human Data<br>Animal Data Suggest Low Risk</td>
-<td>No Human Data<br>Probably Compatible</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK500625/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Alosetron</td>
-<td>Antidiarrheal/Antiemetic</td>
-<td>No Human Data<br>Animal Data Suggest Low Risk</td>
-<td>No Human Data<br>Potential Toxicity</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK525503/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Alpelisib</td>
-<td>Antineoplastic</td>
-<td>Contraindicated</td>
-<td>Contraindicated</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK589162/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Alpha-Galactosidase A</td>
-<td>Endocrine/Metabolic (Enzyme)</td>
-<td>Compatible<br>Maternal Benefit >> Embryo–Fetal Risk</td>
-<td>No Human Data<br>Probably Compatible</td>
-<td><a>No outside link yet</a></td>
-</tr>
-
-<tr>
-<td>Alprazolam</td>
-<td>Sedative</td>
-<td>Human and Animal Data Suggest Risk</td>
-<td>Limited Human Data<br>Potential Toxicity</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501199/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Alteplase</td>
-<td>Thrombolytic</td>
-<td>Compatible</td>
-<td>Compatible</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK500607/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Alvimopan</td>
-<td>Gastrointestinal<br>(Peripheral Opioid Antagonist)</td>
-<td>No Human Data<br>Animal Data Suggest Low Risk</td>
-<td>No Human Data<br>Probably Compatible</td>
-<td><a>No outside link yet</a></td>
-</tr>
-
-<tr>
-<td>Amantadine</td>
-<td>Antiviral/Antiparkinson</td>
-<td>Limited Human Data<br>Animal Data Suggest Risk</td>
-<td>Limited Human Data<br>Potential Toxicity</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501308/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Ambrisentan</td>
-<td>Cardiovascular (Vasodilator)</td>
-<td>Contraindicated</td>
-<td>No Human Data<br>Potential Toxicity</td>
-<td><a>No outside link yet</a></td>
-</tr>
-
-<tr>
-<td>Amifampridine</td>
-<td>Potassium Channel Blocker</td>
-<td>No Human Data<br>Animal Data Suggest Risk</td>
-<td>No Human Data<br>Potential Toxicity</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK543164/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Amifostine</td>
-<td>Antineoplastic Cytoprotectant</td>
-<td>Compatible<br>Maternal Benefit >> Embryo–Fetal Risk</td>
-<td>No Human Data<br>Probably Compatible</td>
-<td><a>No outside link yet</a></td>
-</tr>
-
-<tr>
-<td>Amikacin</td>
-<td>Antibiotic (Aminoglycoside)</td>
-<td>Human Data Suggest Low Risk</td>
-<td>Compatible</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501703/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Amiloride</td>
-<td>Diuretic</td>
-<td>Limited Human Data<br>Animal Data Suggest Low Risk</td>
-<td>No Human Data<br>Probably Compatible</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK500950/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Aminocaproic Acid</td>
-<td>Hemostatic</td>
-<td>Limited Human Data<br>No Relevant Animal Data</td>
-<td>Hold Breastfeeding</td>
-<td><a>No outside link yet</a></td>
-</tr>
-
-<tr>
-<td>Aminophylline</td>
-<td>Respiratory (Bronchodilator)</td>
-<td>Compatible</td>
-<td>Compatible</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501811/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Para-Aminosalicylic Acid</td>
-<td>Antitubercular</td>
-<td>Human Data Suggest Low Risk</td>
-<td>Limited Human Data<br>Probably Compatible</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501320/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Amiodarone</td>
-<td>Antiarrhythmic</td>
-<td>Human and Animal Data Suggest Risk</td>
-<td>Contraindicated</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK500560/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Amitriptyline</td>
-<td>Antidepressant</td>
-<td>Human Data Suggest Low Risk</td>
-<td>Limited Human Data<br>Potential Toxicity</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501174/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Amlodipine</td>
-<td>Calcium Channel Blocker</td>
-<td>Human Data Suggest Low Risk</td>
-<td>Compatible</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK500665/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Ammonium Chloride</td>
-<td>Respiratory (Expectorant)/Urinary Acidifier</td>
-<td>Compatible</td>
-<td>No Human Data<br>Probably Compatible</td>
-<td><a>No outside link yet</a></td>
-</tr>
-
-<tr>
-<td>Amobarbital</td>
-<td>Sedative/Hypnotic</td>
-<td>Human Data Suggest Risk</td>
-<td>No Human Data<br>Potential Toxicity</td>
-<td><a>No outside link yet</a></td>
-</tr>
-
-<tr>
-<td>Amoxapine</td>
-<td>Antidepressant</td>
-<td>Limited Human Data<br>Animal Data Suggest Risk</td>
-<td>Limited Human Data<br>Potential Toxicity</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501183/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Amoxicillin</td>
-<td>Antibiotic (Penicillin)</td>
-<td>Human Data Suggest Low Risk</td>
-<td>Compatible</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK500887/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Amphetamine</td>
-<td>Central Stimulant</td>
-<td>Human and Animal Data Suggest Risk</td>
-<td>Limited Human Data<br>Potential Toxicity Contraindicated (Nonmedical Use)</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501307/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Amphotericin B</td>
-<td>Antifungal</td>
-<td>Compatible</td>
-<td>No Human Data<br>Probably Compatible</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501321/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Ampicillin</td>
-<td>Antibiotic (Penicillin)</td>
-<td>Human Data Suggest Low Risk</td>
-<td>Compatible</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK500994/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Amyl Nitrite</td>
-<td>Vasodilator</td>
-<td>Limited Human Data<br>No Relevant Animal Data</td>
-<td>No Human Data<br>Probably Compatible</td>
-<td><a>No outside link yet</a></td>
-</tr>
-
-<tr>
-<td>Anagrelide</td>
-<td>Hematologic (Antiplatelet)</td>
-<td>Limited Human Data<br>Animal Data Suggest Low Risk</td>
-<td>No Human Data<br>Potential Toxicit</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK559648/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Anakinra</td>
-<td>Immunologic (Immunomodulator)</td>
-<td>Human and Animal Data Suggest Low Risk</td>
-<td>Limited Human Data<br>Probably Compatible</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501871/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Anidulafungin</td>
-<td>Antifungal</td>
-<td>No Human Data<br>Animal Data Suggest Low Risk</td>
-<td>No Human Data<br>Potential Toxicity</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/n/lactmed/anidulafungin/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Anthralin</td>
-<td>Dermatologic (Antipsoriatic)</td>
-<td>No Human Data<br>Probably Compatible</td>
-<td>No Human Data<br>Probably Compatible</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK591123/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Antihemophilic Factor (Human)</td>
-<td>Hematologic (Antihemophilic)</td>
-<td>No Human Data<br>No Animal Data</td>
-<td>No Human Data<br>Probably Compatible</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK500836/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Antipyrine</td>
-<td>Analgesic/Antipyretic</td>
-<td>Limited Human Data<br>No Relevant Animal Data</td>
-<td>No Human Data<br>Potential Toxicity</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501472/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Antithrombin III (Human)</td>
-<td>Hematologic (Thrombin Inhibitor)</td>
-<td>Limited Human Data<br>Animal Data Suggest Low Risk</td>
-<td>No Human Data<br>Probably Compatible</td>
-<td><a>No outside link yet</a></td>
-</tr>
-
-<tr>
-<td>Apalutamide</td>
-<td>Antineoplastic</td>
-<td>Contraindicated</td>
-<td>Contraindicated</td>
-<td><a>No outside link yet</a></td>
-</tr>
-
-<tr>
-<td>Apixaban</td>
-<td>Anticoagulant</td>
-<td>No Human Data<br>Potential Risk</td>
-<td>No Human Data<br>Potential Toxicity</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK500741/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Apomorphine</td>
-<td>Central Nervous System (Antiparkinson)</td>
-<td>Limited Human Data<br>Animal Data Suggest Risk</td>
-<td>No Human Data<br>Probably Compatible</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK537994/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Apraclonidine Ophthalmic</td>
-<td>Sympathomimetic</td>
-<td>No Human Data<br>Probably Compatible</td>
-<td>No Human Data<br>Probably Compatible</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501659/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Apremilast</td>
-<td>Immunologic (Immunomodulator)</td>
-<td>No Human Data<br>Animal Data Suggest Risk</td>
-<td>No Human Data<br>Potential Toxicity</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/n/lactmed/LM1461/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Aprepitant</td>
-<td>Antiemetic</td>
-<td>No Human Data<br>Animal Data Suggest Low Risk</td>
-<td>No Human Data<br>Potential Toxicity</td>
-<td><a>No outside link yet</a></td>
-</tr>
-
-<tr>
-<td>Arformoterol</td>
-<td>Respiratory (Bronchodilator)</td>
-<td>No Human Data<br>Probably Compatible</td>
-<td>No Human Data<br>Probably Compatible</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501590/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Argatroban</td>
-<td>Hematologic (Thrombin Inhibitor)</td>
-<td>Compatible<br>Maternal Benefit >> Embryo–Fetal Risk</td>
-<td>No Human Data<br>Potential Toxicity</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK500775/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Aripiprazole</td>
-<td>Antipsychotic</td>
-<td>Human Data Suggest Low Risk</td>
-<td>Limited Human Data<br>Potential Toxicity</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501016/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Armodafinil</td>
-<td>Central Stimulant</td>
-<td>Limited Human Data<br>Animal Data Suggest Risk</td>
-<td>No Human Data<br>Potential Toxicity</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK513056/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Arnica</td>
-<td>Herb</td>
-<td>Contraindicated</td>
-<td>Contraindicated</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501828/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Asenapine</td>
-<td>Antipsychotic</td>
-<td>No Human Data<br>Animal Data Suggest Moderate Risk</td>
-<td>No Human Data<br>Potential Toxicity</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/n/lactmed/LM780/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Asfotase Alfa</td>
-<td>Endocrine/Metabolic (Miscellaneous)</td>
-<td>No Human Data<br>Animal Data Suggest Low Risk</td>
-<td>No Human Data<br>Probably Compatible</td>
-<td><a>No outside link yet</a></td>
-</tr>
-
-<tr>
-<td>Asparaginase</td>
-<td>Antineoplastic</td>
-<td>Human and Animal Data Suggest Risk</td>
-<td>No Human Data<br>Potential Toxicity</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK559655/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Aspartame</td>
-<td>Artificial Sweetener</td>
-<td>Compatible</td>
-<td>Compatible(Excluding Those with Phenylketonuria)</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501510/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Aspirin</td>
-<td>Nonsteroidal Anti-inflammatory</td>
-<td>Compatible (Low Dose) Human Data Suggest Risk in 1st and 3rd Trimesters (Full Dose)</td>
-<td>Limited Human Data<br>Potential Toxicity</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501196/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Atazanavir</td>
-<td>Antiviral</td>
-<td>Compatible<br>Maternal Benefit >> Embryo–Fetal Risk</td>
-<td>Contraindicated</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501545/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Atenolol</td>
-<td>Sympatholytic (Antihypertensive)</td>
-<td>Human Data Suggest Risk in 2nd and 3rd Trimesters</td>
-<td>Limited Human Data<br>Potential Toxicity</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501142/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Atezolizumab</td>
-<td>Antineoplastic (Monoclonal antibody)</td>
-<td>Contraindicated</td>
-<td>Contraindicated</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/n/lactmed/LM1229/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Atomoxetine</td>
-<td>Psychotherapeutic (Miscellaneous)</td>
-<td>Limited Human Data<br>Animal Data Suggest Risk</td>
-<td>No Human Data<br>Potential Toxicity</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501732/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Atorvastatin</td>
-<td>Antilipemic</td>
-<td>Contraindicated 1st Trimester</td>
-<td>Contraindicated</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/n/lactmed/LM485/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Atovaquone</td>
-<td>Antiprotozoal</td>
-<td>Compatible<br>Maternal Benefit >> Embryo–Fetal Risk</td>
-<td>No Human Data<br>Potential Toxicity</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501692/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Atracurium</td>
-<td>Skeletal Muscle Relaxant</td>
-<td>Limited Human Data<br>Probably Compatible</td>
-<td>No Human Data<br>Probably Compatible</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK500680/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Atropine (Systemic)</td>
-<td>Parasympatholytic</td>
-<td>Human Data Suggest Low Risk</td>
-<td>Limited Human Data<br>Probably Compatible</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/n/lactmed/LM586/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Atropine (Ophthalmic)</td>
-<td>Parasympatholytic</td>
-<td>No Human Data<br>Probably Compatible</td>
-<td>No Human Data<br>Probably Compatible</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501471/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Auranofin</td>
-<td>Immunologic (Antirheumatic)</td>
-<td>No Human Data<br>Animal Data Suggest Low Risk</td>
-<td>No Human Data<br>Probably Compatible</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501027/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Avanafil</td>
-<td>Impotence</td>
-<td>No Human Data<br>Animal Data Suggest Low Risk</td>
-<td>No Human Data<br>Potential Toxicity</td>
-<td><a>No outside link yet</a></td>
-</tr>
-
-<tr>
-<td>Avatrombopag</td>
-<td>Hematologic (Thrombopoietin Receptor Agonist)</td>
-<td>No Human Data<br>Animal Data Suggest Risk</td>
-<td>No Human Data<br>Probably Compatible</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK575383/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Avelumab</td>
-<td>Antineoplastic (Monoclonal Antibody)</td>
-<td>No Human Data<br>Contraindicated</td>
-<td>No Human Data<br>Potential Toxicity</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK500907/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Axitinib</td>
-<td>Antineoplastic (Tyrosine Kinase Inhibitor)</td>
-<td>Contraindicated</td>
-<td>Contraindicated</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK500845/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Azacitidine</td>
-<td>Antineoplastic</td>
-<td>Limited Human Data<br>Animal Data Suggest Risk</td>
-<td>Contraindicated</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK500962/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Azathioprine</td>
-<td>Immunologic (Immunosuppressant)</td>
-<td>Human Data Suggest Risk in 3rd Trimester</td>
-<td>Limited Human Data<br>Probably Compatible</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501050/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Azelastine (Intranasal)</td>
-<td>Antihistamine</td>
-<td>No Human Data<br>Animal Data Suggest Low Risk</td>
-<td>No Human Data<br>Probably Compatible</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501061/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Azelastine (Ophthalmic)</td>
-<td>Antihistamine</td>
-<td>No Human Data<br>Probably Compatible</td>
-<td>No Human Data<br>Probably Compatible</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501061/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Azficel-T</td>
-<td>Dermatologic</td>
-<td>No Human Data<br>Probably Compatible</td>
-<td>No Human Data<br>Probably Compatible</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501917/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Azilsartan</td>
-<td>Antihypertensive</td>
-<td>Human Data Suggest Risk in 2nd and 3rd Trimesters</td>
-<td>No Human Data<br>Probably Compatible</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501769/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Azithromycin</td>
-<td>Antibiotic</td>
-<td>Compatible</td>
-<td>Compatible</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501200/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Aztreonam</td>
-<td>Antibiotic</td>
-<td>Limited Human Data<br>Animal Data Suggest Low Risk</td>
-<td>Compatible</td>
-<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501072/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-<tr>
-<td>Name</td>
-<td>class</td>
-<td>pregg</td>
-<td>lactation</td>
-<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
-</tr>
-
-</table>
-</div>
-<p>This project is created and is maintained by <a href="https://github.com/ThisIsNeil">ThisIsNeil</a>. <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/thisisneil/LactMed?style=flat-square&label=Last%20Update&labelColor=gray&color=%2300008B"></p>
-<p>This site is only a suggestion based on refrences visible <a href="ref.html">Here</a> and should not be considered medical advice. The creators reserve the right to deny all legal claims based on the information presented being only suggestions.</p>
-  <p>The base code for this project was created by  <a href = "https://micahlt.github.io/">Micah Lindley</a>.</p>
-<p>This work is under  <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="CC BY-NC-SA 4.0 DEED" src="https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg"></a>.</p>
-<p>This site is under the <a href="http://wikimedicine.ir/"><img alt="Wikimedicine Umbrella" src="https://img.shields.io/badge/Wikimedicine-Umbrella-008000?labelColor=008000&color=gray
-"></a>.</p>
-<script>function artFunction() {
-  // Declare starting variables
-  var input = document.getElementById("artInput");
-  var filter = input.value.toUpperCase();
-  var table = document.getElementById("artTable");
-  var trs = table.tBodies[0].getElementsByTagName("tr");
-  // Loop through rows
-  for (var i = 0; i < trs.length; i++) {
-    // Define the cells
-    var tds = trs[i].getElementsByTagName("td");
-    // hide the row
-    trs[i].style.display = "none";
-    // loop through row cells
-    for (var i2 = 0; i2 < tds.length; i2++) {
-      // if there's a match
-      if (tds[i2].innerHTML.toUpperCase().indexOf(filter) > -1) {
-        // show the row
-        trs[i].style.display = "";
-        // skip to the next row
-        continue;
-      }
-    }
-  }
-}
-</script>
+	<head>
+		<!--style tag below to placate IE is for fixed table header-->
+		<style>
+			
+			table {
+			text-align: left;
+			position: relative;
+			}
+			
+			th {
+			background: white;
+			position: sticky;
+			top: 0;
+			}
+		</style>
+		<!--meta below is for phone screen being the same as desktop-->
+		<meta name="viewport" content="width=device-width, initial-scale=0.1">
+		<link rel="stylesheet" href="/css/lactmed_logo_animation.css">
+		<link rel="stylesheet" href="/css/badge.css">
+		<link rel="stylesheet" href="/css/docile_tooltip.css">
+		<link rel="stylesheet" href="/css/reference_scroll_animation.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link href = "https://fonts.googleapis.com/css?family=Nunito+Sans:400,900&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="/css/body.css">
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+		<title>LactMed.ir</title>
+		
+	</head>
+	<body>	
+		<!--Lactmed.ir animated logo-->
+		<div class="wrapper">
+			<svg>
+				<a href="http://lactmed.ir/"><text x="50%" y="50%" dy=".35em" text-anchor="middle">
+					LactMed.Ir
+				</text></a>
+			</svg>
+		</div>
+		
+		<h2>Database of drug safety during pregnancy and lactation</h2>
+		
+		<!--reference scroll text-->
+		<div id=container>
+			<div id=flip>
+				<div><div>Briggs Drugs in Pregnancy and Lactation, 12th ed.</div></div>
+				<div><div>Drugs and Lactation Database (LactMed®)</div></div>
+				<div><div>www.drugs.com</div></div>
+			</div>
+		</div>
+		
+		
+		<!--search box-->
+		<div class="centerenter">
+			<input type="text" id="artInput" onkeyup="artFunction()" placeholder="name of drug or class" title="Work search">
+		</div>
+		<div class="tablesearch">
+			<table id="artTable" align="center">
+				<thead>
+					<tr class="header">
+						<th style="width:10%">Name</th>
+						<th style="width:10%">class</th>
+						<th style="width:30%">Safety during pregnancy</th>
+						<th style="width:30%">Safety during lactation</th>
+						<th style="width:20%">More info</th>
+					</tr>
+				</thead>
+				
+				<tr>
+					<td class="CellWithComment">
+						Abacavir
+						<span style="text-align: start" class="CellComment">
+							<a class="badgeheaderdrugs">Drugs.com</a><a class="badgeheaderrest"> recommendation:<br style="line-height: 30px"></a>
+							<a class="badgecontent">Pregnancy Category:&ensp; &ensp;<img style="vertical-align:middle" alt="FDA Group A" src="/res/badges/fda/fda_a.svg"> <img style="vertical-align:middle" alt="FDA Group A" src="/res/badges/fda/fda_a.svg"><br style="line-height: 40px">Breastfeeding Category:<img style="vertical-align:middle" alt="FDA Group A" src="/res/badges/fda/fda_a.svg"> <img style="vertical-align:middle" alt="FDA Group A" src="/res/badges/fda/fda_a.svg"></a>
+							<i></i>
+						</i></span>
+				</td>
+				<td>Antiviral</td>
+				<td>Compatible<br>Maternal Benefit >> Embryo–Fetal Risk</td>
+				<td>Contraindicated</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501547/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Abatacept</td>
+				<td>Immunologic (Immunomodulator)/Antirheumatic</td>
+				<td>Limited Human Data<br>Animal Data Suggest Low Risk</td>
+				<td>No Human Data<br>Potential Toxicity</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501804/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Abciximab</td>
+				<td>Hematologic (Antiplatelet)</td>
+				<td>Compatible<br>Maternal Benefit >> Embryo–Fetal Risk</td>
+				<td>Compatible</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK500585/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Abiraterone Acetate</td>
+				<td>Antineoplastic</td>
+				<td>Contraindicated</td>
+				<td>Contraindicated</td>
+				<td><a>No outside link yet</a></td>
+			</tr>
+			
+			<tr>
+				<td>Acamprosate</td>
+				<td>Antialcoholic</td>
+				<td>Limited Human Data<br>Animal Data Suggest High Risk</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK584452/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Acarbose</td>
+				<td>Endocrine/Metabolic (Antidiabetic)</td>
+				<td>Limited Human Data<br>Animal Data Suggest Low Risk</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK500559/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Acebutolol</td>
+				<td>Sympatholytic (Antihypertensive)</td>
+				<td>Limited Human Data<br>Animal Data Suggest Low Risk</td>
+				<td>Limited Human Data<br>Potential Toxicity</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501141/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Acetaminophen</td>
+				<td>Analgesic/Antipyretic</td>
+				<td>Short-Term Use Suggests Low Risk<br>Long-Term Use Suggests Risk</td>
+				<td>Compatible</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501194/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Acetazolamide</td>
+				<td>Carbonic Anhydrase Inhibitor/Diuretic</td>
+				<td>Compatible</td>
+				<td>Compatible</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501365/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Acetylcysteine</td>
+				<td>Respiratory (Mucolytic)/Antidote</td>
+				<td>Compatible<br>Maternal Benefits >> Embryo–Fetal Risk</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Acitretin</td>
+				<td>Dermatologic (Vitamin)</td>
+				<td>Contraindicated</td>
+				<td>Compatible</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/n/lactmed/LM490/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Aclidinium Bromide</td>
+				<td>Respiratory (Bronchodilator)</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK500571/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Aciclovir<br>(Acyclovir)</td>
+				<td>Antiviral</td>
+				<td>Compatible</td>
+				<td>Compatible</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/n/lactmed/LM331/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Adalimumab</td>
+				<td>Immunologic (Immunomodulator)</td>
+				<td>Compatible</td>
+				<td>Limited Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/n/lactmed/LM513/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Adapalene</td>
+				<td>Dermatologic</td>
+				<td>Limited Human Data<br>Animal Data Suggest Low Risk</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501423/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Adefovir</td>
+				<td>Antiviral</td>
+				<td>Compatible<br>Maternal Benefit >> Embryo–Fetal Risk</td>
+				<td>No Human Data<br>Potential Toxicity (Hepatitis B)<br>Contraindicated (HIV)</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501743/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Adenosine</td>
+				<td>Antiarrhythmic</td>
+				<td>Compatible<br>Maternal Benefit >> Embryo–Fetal Risk</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td><a>No outside link yet</a></td>
+			</tr>
+			
+			<tr>
+				<td>Ado-Trastuzumab</td>
+				<td>Antineoplastic (Monoclonal Antibody)</td>
+				<td>No Human Data<br>Animal Data Suggest Moderate Risk</td>
+				<td>No Human Data<br>Potential Toxicity</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK500827/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Afamelanotide</td>
+				<td>Dermatologic</td>
+				<td>No Human Data<br>Animal Data Suggest Low Risk</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td><a>No outside link yet</a></td>
+			</tr>
+			
+			<tr>
+				<td>Afatinib</td>
+				<td>Antineoplastic (Tyrosine Kinase Inhibitor)</td>
+				<td>No Human Data<br>Animal Data Suggest Risk</td>
+				<td>No Human Data<br>Potential Toxicity</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK500846/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Aflibercept (Ophthalmic)</td>
+				<td>Vascular Endothelial Growth Factor Antagonist</td>
+				<td>No Human Data<br>Animal Data Suggest Low Risk</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/n/lactmed/LM1246/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Agalsidase Alfa</td>
+				<td>Endocrine/Metabolic Agent (Enzyme)</td>
+				<td>Compatible<br>Maternal Benefit >> Embryo–Fetal Risk</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK535604/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Agalsidase Beta</td>
+				<td>Endocrine/Metabolic (Enzyme)</td>
+				<td>Compatible<br>Maternal Benefit >> Embryo–Fetal Risk</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK500601/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Albendazole</td>
+				<td>Anthelmintic</td>
+				<td>Compatible</td>
+				<td>Limited Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/n/lactmed/LM491/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Albiglutide</td>
+				<td>Endocrine/Metabolic (Antidiabetic)</td>
+				<td>No Human Data<br>Animal Data Suggest Low Risk</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td><a>No outside link yet</a></td>
+			</tr>
+			
+			<tr>
+				<td>Albuterol</td>
+				<td>Sympathomimetic/Bronchodilator</td>
+				<td>Compatible</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501486/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Alcaftadine (Ophthalmic)</td>
+				<td>Antihistamine</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td><a>No outside link yet</a></td>
+			</tr>
+			
+			<tr>
+				<td>Aldesleukin</td>
+				<td>Antineoplastic</td>
+				<td>No Human Data<br>Animal Data Suggest Low Risk</td>
+				<td>Hold Breastfeeding at Least 4 Hours</td>
+				<td><a>No outside link yet</a></td>
+			</tr>
+			
+			<tr>
+				<td>Alectinib</td>
+				<td>Antineoplastic</td>
+				<td>Contraindicated</td>
+				<td>Contraindicated</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/n/lactmed/LM1263/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Alemtuzumab</td>
+				<td>Antineoplastic</td>
+				<td>Limited Human Data<br>No Relevant Animal Data</td>
+				<td>No Human Data<br>Potential Toxicity</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501803/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Alendronate</td>
+				<td>Bisphosphonate</td>
+				<td>Limited Human Data<br>Animal Data Suggest Risk</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/n/lactmed/LM723/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Alfentanil</td>
+				<td>Narcotic Agonist Analgesic</td>
+				<td>Human Data Suggest Risk in 3rd Trimester</td>
+				<td>Limited Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501197/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Alglucosidase Alfa</td>
+				<td>Endocrine/Metabolic (Enzyme)</td>
+				<td>Compatible<br>Maternal Benefit >> Embryo–Fetal Risk</td>
+				<td>Limited Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/n/lactmed/LM907/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Alirocumab</td>
+				<td>Antilipemic</td>
+				<td>No Human Data<br>Animal Data Suggest Low Risk</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/n/lactmed/LM1178/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Aliskiren</td>
+				<td>Antihypertensive</td>
+				<td>Human Data Suggest Risk in 2nd and 3rd Trimesters</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td><a>No outside link yet</a></td>
+			</tr>
+			
+			<tr>
+				<td>Allopurinol</td>
+				<td>Antineoplastic/Antigout</td>
+				<td>Limited Human Data<br>No Relevant Animal Data</td>
+				<td>Limited Human Data<br>Potential Toxicity</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501198/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Almotriptan</td>
+				<td>Antimigraine</td>
+				<td>No Human Data<br>Animal Data Suggest Low Risk</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501459/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Alogliptin</td>
+				<td>Endocrine/Metabolic (Antidiabetic)</td>
+				<td>No Human Data<br>Animal Data Suggest Low Risk</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK500625/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Alosetron</td>
+				<td>Antidiarrheal/Antiemetic</td>
+				<td>No Human Data<br>Animal Data Suggest Low Risk</td>
+				<td>No Human Data<br>Potential Toxicity</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK525503/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Alpelisib</td>
+				<td>Antineoplastic</td>
+				<td>Contraindicated</td>
+				<td>Contraindicated</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK589162/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Alpha-Galactosidase A</td>
+				<td>Endocrine/Metabolic (Enzyme)</td>
+				<td>Compatible<br>Maternal Benefit >> Embryo–Fetal Risk</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td><a>No outside link yet</a></td>
+			</tr>
+			
+			<tr>
+				<td>Alprazolam</td>
+				<td>Sedative</td>
+				<td>Human and Animal Data Suggest Risk</td>
+				<td>Limited Human Data<br>Potential Toxicity</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501199/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Alteplase</td>
+				<td>Thrombolytic</td>
+				<td>Compatible</td>
+				<td>Compatible</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK500607/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Alvimopan</td>
+				<td>Gastrointestinal<br>(Peripheral Opioid Antagonist)</td>
+				<td>No Human Data<br>Animal Data Suggest Low Risk</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td><a>No outside link yet</a></td>
+			</tr>
+			
+			<tr>
+				<td>Amantadine</td>
+				<td>Antiviral/Antiparkinson</td>
+				<td>Limited Human Data<br>Animal Data Suggest Risk</td>
+				<td>Limited Human Data<br>Potential Toxicity</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501308/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Ambrisentan</td>
+				<td>Cardiovascular (Vasodilator)</td>
+				<td>Contraindicated</td>
+				<td>No Human Data<br>Potential Toxicity</td>
+				<td><a>No outside link yet</a></td>
+			</tr>
+			
+			<tr>
+				<td>Amifampridine</td>
+				<td>Potassium Channel Blocker</td>
+				<td>No Human Data<br>Animal Data Suggest Risk</td>
+				<td>No Human Data<br>Potential Toxicity</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK543164/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Amifostine</td>
+				<td>Antineoplastic Cytoprotectant</td>
+				<td>Compatible<br>Maternal Benefit >> Embryo–Fetal Risk</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td><a>No outside link yet</a></td>
+			</tr>
+			
+			<tr>
+				<td>Amikacin</td>
+				<td>Antibiotic (Aminoglycoside)</td>
+				<td>Human Data Suggest Low Risk</td>
+				<td>Compatible</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501703/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Amiloride</td>
+				<td>Diuretic</td>
+				<td>Limited Human Data<br>Animal Data Suggest Low Risk</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK500950/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Aminocaproic Acid</td>
+				<td>Hemostatic</td>
+				<td>Limited Human Data<br>No Relevant Animal Data</td>
+				<td>Hold Breastfeeding</td>
+				<td><a>No outside link yet</a></td>
+			</tr>
+			
+			<tr>
+				<td>Aminophylline</td>
+				<td>Respiratory (Bronchodilator)</td>
+				<td>Compatible</td>
+				<td>Compatible</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501811/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Para-Aminosalicylic Acid</td>
+				<td>Antitubercular</td>
+				<td>Human Data Suggest Low Risk</td>
+				<td>Limited Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501320/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Amiodarone</td>
+				<td>Antiarrhythmic</td>
+				<td>Human and Animal Data Suggest Risk</td>
+				<td>Contraindicated</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK500560/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Amitriptyline</td>
+				<td>Antidepressant</td>
+				<td>Human Data Suggest Low Risk</td>
+				<td>Limited Human Data<br>Potential Toxicity</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501174/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Amlodipine</td>
+				<td>Calcium Channel Blocker</td>
+				<td>Human Data Suggest Low Risk</td>
+				<td>Compatible</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK500665/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Ammonium Chloride</td>
+				<td>Respiratory (Expectorant)/Urinary Acidifier</td>
+				<td>Compatible</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td><a>No outside link yet</a></td>
+			</tr>
+			
+			<tr>
+				<td>Amobarbital</td>
+				<td>Sedative/Hypnotic</td>
+				<td>Human Data Suggest Risk</td>
+				<td>No Human Data<br>Potential Toxicity</td>
+				<td><a>No outside link yet</a></td>
+			</tr>
+			
+			<tr>
+				<td>Amoxapine</td>
+				<td>Antidepressant</td>
+				<td>Limited Human Data<br>Animal Data Suggest Risk</td>
+				<td>Limited Human Data<br>Potential Toxicity</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501183/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Amoxicillin</td>
+				<td>Antibiotic (Penicillin)</td>
+				<td>Human Data Suggest Low Risk</td>
+				<td>Compatible</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK500887/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Amphetamine</td>
+				<td>Central Stimulant</td>
+				<td>Human and Animal Data Suggest Risk</td>
+				<td>Limited Human Data<br>Potential Toxicity Contraindicated (Nonmedical Use)</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501307/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Amphotericin B</td>
+				<td>Antifungal</td>
+				<td>Compatible</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501321/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Ampicillin</td>
+				<td>Antibiotic (Penicillin)</td>
+				<td>Human Data Suggest Low Risk</td>
+				<td>Compatible</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK500994/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Amyl Nitrite</td>
+				<td>Vasodilator</td>
+				<td>Limited Human Data<br>No Relevant Animal Data</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td><a>No outside link yet</a></td>
+			</tr>
+			
+			<tr>
+				<td>Anagrelide</td>
+				<td>Hematologic (Antiplatelet)</td>
+				<td>Limited Human Data<br>Animal Data Suggest Low Risk</td>
+				<td>No Human Data<br>Potential Toxicit</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK559648/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Anakinra</td>
+				<td>Immunologic (Immunomodulator)</td>
+				<td>Human and Animal Data Suggest Low Risk</td>
+				<td>Limited Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501871/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Anidulafungin</td>
+				<td>Antifungal</td>
+				<td>No Human Data<br>Animal Data Suggest Low Risk</td>
+				<td>No Human Data<br>Potential Toxicity</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/n/lactmed/anidulafungin/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Anthralin</td>
+				<td>Dermatologic (Antipsoriatic)</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK591123/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Antihemophilic Factor (Human)</td>
+				<td>Hematologic (Antihemophilic)</td>
+				<td>No Human Data<br>No Animal Data</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK500836/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Antipyrine</td>
+				<td>Analgesic/Antipyretic</td>
+				<td>Limited Human Data<br>No Relevant Animal Data</td>
+				<td>No Human Data<br>Potential Toxicity</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501472/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Antithrombin III (Human)</td>
+				<td>Hematologic (Thrombin Inhibitor)</td>
+				<td>Limited Human Data<br>Animal Data Suggest Low Risk</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td><a>No outside link yet</a></td>
+			</tr>
+			
+			<tr>
+				<td>Apalutamide</td>
+				<td>Antineoplastic</td>
+				<td>Contraindicated</td>
+				<td>Contraindicated</td>
+				<td><a>No outside link yet</a></td>
+			</tr>
+			
+			<tr>
+				<td>Apixaban</td>
+				<td>Anticoagulant</td>
+				<td>No Human Data<br>Potential Risk</td>
+				<td>No Human Data<br>Potential Toxicity</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK500741/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Apomorphine</td>
+				<td>Central Nervous System (Antiparkinson)</td>
+				<td>Limited Human Data<br>Animal Data Suggest Risk</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK537994/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Apraclonidine Ophthalmic</td>
+				<td>Sympathomimetic</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501659/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Apremilast</td>
+				<td>Immunologic (Immunomodulator)</td>
+				<td>No Human Data<br>Animal Data Suggest Risk</td>
+				<td>No Human Data<br>Potential Toxicity</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/n/lactmed/LM1461/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Aprepitant</td>
+				<td>Antiemetic</td>
+				<td>No Human Data<br>Animal Data Suggest Low Risk</td>
+				<td>No Human Data<br>Potential Toxicity</td>
+				<td><a>No outside link yet</a></td>
+			</tr>
+			
+			<tr>
+				<td>Arformoterol</td>
+				<td>Respiratory (Bronchodilator)</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501590/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Argatroban</td>
+				<td>Hematologic (Thrombin Inhibitor)</td>
+				<td>Compatible<br>Maternal Benefit >> Embryo–Fetal Risk</td>
+				<td>No Human Data<br>Potential Toxicity</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK500775/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Aripiprazole</td>
+				<td>Antipsychotic</td>
+				<td>Human Data Suggest Low Risk</td>
+				<td>Limited Human Data<br>Potential Toxicity</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501016/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Armodafinil</td>
+				<td>Central Stimulant</td>
+				<td>Limited Human Data<br>Animal Data Suggest Risk</td>
+				<td>No Human Data<br>Potential Toxicity</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK513056/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Arnica</td>
+				<td>Herb</td>
+				<td>Contraindicated</td>
+				<td>Contraindicated</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501828/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Asenapine</td>
+				<td>Antipsychotic</td>
+				<td>No Human Data<br>Animal Data Suggest Moderate Risk</td>
+				<td>No Human Data<br>Potential Toxicity</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/n/lactmed/LM780/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Asfotase Alfa</td>
+				<td>Endocrine/Metabolic (Miscellaneous)</td>
+				<td>No Human Data<br>Animal Data Suggest Low Risk</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td><a>No outside link yet</a></td>
+			</tr>
+			
+			<tr>
+				<td>Asparaginase</td>
+				<td>Antineoplastic</td>
+				<td>Human and Animal Data Suggest Risk</td>
+				<td>No Human Data<br>Potential Toxicity</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK559655/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Aspartame</td>
+				<td>Artificial Sweetener</td>
+				<td>Compatible</td>
+				<td>Compatible(Excluding Those with Phenylketonuria)</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501510/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Aspirin</td>
+				<td>Nonsteroidal Anti-inflammatory</td>
+				<td>Compatible (Low Dose) Human Data Suggest Risk in 1st and 3rd Trimesters (Full Dose)</td>
+				<td>Limited Human Data<br>Potential Toxicity</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501196/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Atazanavir</td>
+				<td>Antiviral</td>
+				<td>Compatible<br>Maternal Benefit >> Embryo–Fetal Risk</td>
+				<td>Contraindicated</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501545/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Atenolol</td>
+				<td>Sympatholytic (Antihypertensive)</td>
+				<td>Human Data Suggest Risk in 2nd and 3rd Trimesters</td>
+				<td>Limited Human Data<br>Potential Toxicity</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501142/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Atezolizumab</td>
+				<td>Antineoplastic (Monoclonal antibody)</td>
+				<td>Contraindicated</td>
+				<td>Contraindicated</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/n/lactmed/LM1229/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Atomoxetine</td>
+				<td>Psychotherapeutic (Miscellaneous)</td>
+				<td>Limited Human Data<br>Animal Data Suggest Risk</td>
+				<td>No Human Data<br>Potential Toxicity</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501732/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Atorvastatin</td>
+				<td>Antilipemic</td>
+				<td>Contraindicated 1st Trimester</td>
+				<td>Contraindicated</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/n/lactmed/LM485/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Atovaquone</td>
+				<td>Antiprotozoal</td>
+				<td>Compatible<br>Maternal Benefit >> Embryo–Fetal Risk</td>
+				<td>No Human Data<br>Potential Toxicity</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501692/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Atracurium</td>
+				<td>Skeletal Muscle Relaxant</td>
+				<td>Limited Human Data<br>Probably Compatible</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK500680/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Atropine (Systemic)</td>
+				<td>Parasympatholytic</td>
+				<td>Human Data Suggest Low Risk</td>
+				<td>Limited Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/n/lactmed/LM586/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Atropine (Ophthalmic)</td>
+				<td>Parasympatholytic</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501471/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Auranofin</td>
+				<td>Immunologic (Antirheumatic)</td>
+				<td>No Human Data<br>Animal Data Suggest Low Risk</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501027/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Avanafil</td>
+				<td>Impotence</td>
+				<td>No Human Data<br>Animal Data Suggest Low Risk</td>
+				<td>No Human Data<br>Potential Toxicity</td>
+				<td><a>No outside link yet</a></td>
+			</tr>
+			
+			<tr>
+				<td>Avatrombopag</td>
+				<td>Hematologic (Thrombopoietin Receptor Agonist)</td>
+				<td>No Human Data<br>Animal Data Suggest Risk</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK575383/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Avelumab</td>
+				<td>Antineoplastic (Monoclonal Antibody)</td>
+				<td>No Human Data<br>Contraindicated</td>
+				<td>No Human Data<br>Potential Toxicity</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK500907/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Axitinib</td>
+				<td>Antineoplastic (Tyrosine Kinase Inhibitor)</td>
+				<td>Contraindicated</td>
+				<td>Contraindicated</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK500845/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Azacitidine</td>
+				<td>Antineoplastic</td>
+				<td>Limited Human Data<br>Animal Data Suggest Risk</td>
+				<td>Contraindicated</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK500962/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Azathioprine</td>
+				<td>Immunologic (Immunosuppressant)</td>
+				<td>Human Data Suggest Risk in 3rd Trimester</td>
+				<td>Limited Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501050/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Azelastine (Intranasal)</td>
+				<td>Antihistamine</td>
+				<td>No Human Data<br>Animal Data Suggest Low Risk</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501061/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Azelastine (Ophthalmic)</td>
+				<td>Antihistamine</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501061/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Azficel-T</td>
+				<td>Dermatologic</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501917/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Azilsartan</td>
+				<td>Antihypertensive</td>
+				<td>Human Data Suggest Risk in 2nd and 3rd Trimesters</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501769/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Azithromycin</td>
+				<td>Antibiotic</td>
+				<td>Compatible</td>
+				<td>Compatible</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501200/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Aztreonam</td>
+				<td>Antibiotic</td>
+				<td>Limited Human Data<br>Animal Data Suggest Low Risk</td>
+				<td>Compatible</td>
+				<td style="font-size: 0.675em"><a href="https://www.ncbi.nlm.nih.gov/books/NBK501072/">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Bacitracin (Topical)</td>
+				<td>Antibiotic</td>
+				<td>Compatible</td>
+				<td>Compatible</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Baclofen</td>
+				<td>Muscle Relaxant</td>
+				<td>Human Data Suggest Risk</td>
+				<td>Limited Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Baloxavir Marboxil</td>
+				<td>Antiviral</td>
+				<td>No Human Data<br>Animal Data Suggest Low Risk</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Balsalazide</td>
+				<td>Anti-inflammatory Bowel Disease</td>
+				<td>Compatible</td>
+				<td>No Human Data<br>Potential Toxicity</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Baricitinib</td>
+				<td>Immunologic Agent<br>(Antirheumatic)</td>
+				<td>No Human Data<br>Animal Data Suggest Low Risk</td>
+				<td>No Human Data<br>Potential Toxicity</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Basiliximab</td>
+				<td>Immunologic<br>(Immunosuppressant)</td>
+				<td>Compatible<br>Maternal Benefit >> Embryo–Fetal Risk</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Beclomethasone</td>
+				<td>Respiratory<br>(Corticosteroid)</td>
+				<td>Compatible</td>
+				<td>Limited Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Bedaquiline</td>
+				<td>Antituberculosis</td>
+				<td>Limited Human Data<br>Animal Data Suggest Low Risk</td>
+				<td>No Human Data<br>Potential Toxicity</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Belatacept</td>
+				<td>Immunologic<br>(Immunosuppressant)</td>
+				<td>Limited Human Data<br>Animal Data Suggest Low Risk<br>Contraindicated in the 1st Trimester if combined with Mycophenolate</td>
+				<td>No Human Data<br>Probably Compatible<br>Contraindicated If combined with Mycophenolate</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Belimumab</td>
+				<td>Immunologic<br>(Immunomodulator)</td>
+				<td>Human Data Suggest Risk</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Belinostat</td>
+				<td>Antineoplastic</td>
+				<td>Contraindicated</td>
+				<td>No Human Data<br>Potential Toxicity</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Belladonna</td>
+				<td>Parasympatholytic</td>
+				<td>Limited Human Data<br>No Relevant Animal Data</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Benazepril</td>
+				<td>Antihypertensive</td>
+				<td>Human Data Suggest Risk in<br>2nd and 3rd Trimesters</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Bendamustine</td>
+				<td>Antineoplastic</td>
+				<td>Contraindicated in 1st Trimester</td>
+				<td>Contraindicated</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Bendroflumethiazide</td>
+				<td>Diuretic</td>
+				<td>Limited Human Data<br>Probably Compatible</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Benzocaine</td>
+				<td>Local Anesthetic</td>
+				<td>Limited Human Data<br>Probably Compatible</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Benzphetamine</td>
+				<td>Anorexiant</td>
+				<td>Contraindicated</td>
+				<td>Contraindicated</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Benztropine</td>
+				<td>Parasympatholytic</td>
+				<td>Limited Human Data<br>Probably Compatible</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Benzyl Alcohol (Topical)</td>
+				<td>Pediculicide<br>Anti-infective</td>
+				<td>Limited Human Data<br>Probably Compatible</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Benzyl Alcohol (Injectable)</td>
+				<td>Pediculicide<br>Anti-infective</td>
+				<td>Contraindicated</td>
+				<td>Contraindicated</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Bepotastine (Ophthalmic)</td>
+				<td>Antihistamine</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Besifloxacin (Ophthalmic)</td>
+				<td>Anti-infective</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Beta-carotene<br>(β-Carotene)</td>
+				<td>Vitamin</td>
+				<td>Compatible</td>
+				<td>Compatible</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>BETAMETHASONE</td>
+				<td>Corticosteroid</td>
+				<td>Compatible<br>(used in women with risk of premature labor to stimulate fetal lung maturation)</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Betaxolol (Systematic)</td>
+				<td>Sympatholytic<br>(Antihypertensive)</td>
+				<td>Human Data Suggest Risk in<br>2nd and 3rd Trimesters</td>
+				<td>Limited Human Data<br>Potential Toxicity</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Betaxolol (Ophthalmic)</td>
+				<td>Sympatholytic</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Bethanechol</td>
+				<td>Parasympathomimetic<br>(Cholinergic)</td>
+				<td>Limited Human Data<br>No Relevant Animal Data</td>
+				<td>Limited Human Data<br>Potential Toxicity</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Bevacizumab</td>
+				<td>Antineoplastic</td>
+				<td>Limited Human Data<br>Animal Data Suggest Moderate Risk</td>
+				<td>Limited Human Data<br>Potential Toxicity (Intravenous)<br>Probably Compatible (Intravitreal)</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Bexarotene</td>
+				<td>Antineoplastic</td>
+				<td>Contraindicated</td>
+				<td>No Human Data<br>Potential Toxicity</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Bezlotoxumab</td>
+				<td>Anti-infective<br>(Monoclonal Antibody)</td>
+				<td>Compatible<br>Maternal Benefit >> Embryo–Fetal Risk</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Bimatoprost (Ophthalmic)</td>
+				<td>Prostaglandin Agonist</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Binimetinib</td>
+				<td>Antineoplastic<br>(Kinase Inhibitor)</td>
+				<td>Contraindicated</td>
+				<td>Contraindicated</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Bisacodyl</td>
+				<td>Gastrointestinal<br>(Laxative)</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td>Limited Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Bismuth Subsalicylate</td>
+				<td>Antidiarrheal</td>
+				<td>Human Data Suggest<br>Low Risk</td>
+				<td>No Human Data<br>Potential Toxicity</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Bisoprolol</td>
+				<td>Sympatholytic<br>(Antihypertensive)</td>
+				<td>Human Data Suggest Risk in<br>2nd and 3rd Trimesters</td>
+				<td>No Human Data<br>Potential Toxicity</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Bivalirudin</td>
+				<td>Thrombin Inhibitor</td>
+				<td>Compatible<br>Maternal Benefit >> Embryo–Fetal Risk</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Black Seed/Kalanji</td>
+				<td>Herb</td>
+				<td>No Human Data<br>No Relevant Animal Data</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>BLACK WIDOW<br>SPIDER ANTIVENIN</td>
+				<td>Antidote</td>
+				<td>Limited Human Data<br>Probably Compatible</td>
+				<td>No Human Data<br>Probably Compatible</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Bleomycin</td>
+				<td>Antineoplastic</td>
+				<td>Human and Animal Data<br>Suggest Risk</td>
+				<td>No Human Data<br>Potential Toxicity</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Name</td>
+				<td>class</td>
+				<td>pregg</td>
+				<td>lactation</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Name</td>
+				<td>class</td>
+				<td>pregg</td>
+				<td>lactation</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Name</td>
+				<td>class</td>
+				<td>pregg</td>
+				<td>lactation</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Name</td>
+				<td>class</td>
+				<td>pregg</td>
+				<td>lactation</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Name</td>
+				<td>class</td>
+				<td>pregg</td>
+				<td>lactation</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Name</td>
+				<td>class</td>
+				<td>pregg</td>
+				<td>lactation</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Name</td>
+				<td>class</td>
+				<td>pregg</td>
+				<td>lactation</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Name</td>
+				<td>class</td>
+				<td>pregg</td>
+				<td>lactation</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Name</td>
+				<td>class</td>
+				<td>pregg</td>
+				<td>lactation</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Name</td>
+				<td>class</td>
+				<td>pregg</td>
+				<td>lactation</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Name</td>
+				<td>class</td>
+				<td>pregg</td>
+				<td>lactation</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Name</td>
+				<td>class</td>
+				<td>pregg</td>
+				<td>lactation</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Name</td>
+				<td>class</td>
+				<td>pregg</td>
+				<td>lactation</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Name</td>
+				<td>class</td>
+				<td>pregg</td>
+				<td>lactation</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Name</td>
+				<td>class</td>
+				<td>pregg</td>
+				<td>lactation</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Name</td>
+				<td>class</td>
+				<td>pregg</td>
+				<td>lactation</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Name</td>
+				<td>class</td>
+				<td>pregg</td>
+				<td>lactation</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Name</td>
+				<td>class</td>
+				<td>pregg</td>
+				<td>lactation</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Name</td>
+				<td>class</td>
+				<td>pregg</td>
+				<td>lactation</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Name</td>
+				<td>class</td>
+				<td>pregg</td>
+				<td>lactation</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Name</td>
+				<td>class</td>
+				<td>pregg</td>
+				<td>lactation</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Name</td>
+				<td>class</td>
+				<td>pregg</td>
+				<td>lactation</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Name</td>
+				<td>class</td>
+				<td>pregg</td>
+				<td>lactation</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Name</td>
+				<td>class</td>
+				<td>pregg</td>
+				<td>lactation</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Name</td>
+				<td>class</td>
+				<td>pregg</td>
+				<td>lactation</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Name</td>
+				<td>class</td>
+				<td>pregg</td>
+				<td>lactation</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Name</td>
+				<td>class</td>
+				<td>pregg</td>
+				<td>lactation</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Name</td>
+				<td>class</td>
+				<td>pregg</td>
+				<td>lactation</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Name</td>
+				<td>class</td>
+				<td>pregg</td>
+				<td>lactation</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Name</td>
+				<td>class</td>
+				<td>pregg</td>
+				<td>lactation</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Name</td>
+				<td>class</td>
+				<td>pregg</td>
+				<td>lactation</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Name</td>
+				<td>class</td>
+				<td>pregg</td>
+				<td>lactation</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Name</td>
+				<td>class</td>
+				<td>pregg</td>
+				<td>lactation</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Name</td>
+				<td>class</td>
+				<td>pregg</td>
+				<td>lactation</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Name</td>
+				<td>class</td>
+				<td>pregg</td>
+				<td>lactation</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+			<tr>
+				<td>Name</td>
+				<td>class</td>
+				<td>pregg</td>
+				<td>lactation</td>
+				<td style="font-size: 0.675em"><a href="">Lactmed®</a><br><a href="">Drugs.com</a><br><a href="">DrugBank</a><br><a href="">WebMD</a><br><a href="">Darooyab</a></td>
+			</tr>
+			
+		</table>
+	</div>
+	<p>This project is created and is maintained by <a href="https://github.com/ThisIsNeil">ThisIsNeil</a>. <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/thisisneil/LactMed?style=flat-square&label=Last%20Update&labelColor=gray&color=%2300008B"></p>
+	<p>This site is only a suggestion based on refrences visible <a href="ref.html">Here</a> and should not be considered medical advice. The creators reserve the right to deny all legal claims based on the information presented being only suggestions.</p>
+	<p>The base code for this project was created by  <a href = "https://micahlt.github.io/">Micah Lindley</a>.</p>
+	<p>This work is under  <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="CC BY-NC-SA 4.0 DEED" src="https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg"></a>.</p>
+	<p>This site is under the <a href="http://wikimedicine.ir/"><img alt="Wikimedicine Umbrella" src="https://img.shields.io/badge/Wikimedicine-Umbrella-008000?labelColor=008000&color=gray
+	"></a>.</p>
+	<script>function artFunction() {
+		// Declare starting variables
+		var input = document.getElementById("artInput");
+		var filter = input.value.toUpperCase();
+		var table = document.getElementById("artTable");
+		var trs = table.tBodies[0].getElementsByTagName("tr");
+		// Loop through rows
+		for (var i = 0; i < trs.length; i++) {
+			// Define the cells
+			var tds = trs[i].getElementsByTagName("td");
+			// hide the row
+			trs[i].style.display = "none";
+			// loop through row cells
+			for (var i2 = 0; i2 < tds.length; i2++) {
+				// if there's a match
+				if (tds[i2].innerHTML.toUpperCase().indexOf(filter) > -1) {
+					// show the row
+					trs[i].style.display = "";
+					// skip to the next row
+					continue;
+				}
+			}
+		}
+	}
+	</script>
 </body>
 </html>
